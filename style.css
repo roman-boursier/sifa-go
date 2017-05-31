@@ -1,0 +1,32 @@
+*{
+    box-sizing:border-box;
+
+}
+html, body {
+    overflow:hidden;
+}
+html, body, #container {
+    height:100%;
+    width: 100%;
+}
+body {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    background-image:url('assets/background.png');
+    background-color:#53e9dd;
+    background-repeat:repeat-x;
+
+}
+@media screen and (max-width:480px){
+    body { 
+       background-image:none;
+       background-color:#1ec3e9;
+    }
+}
+#rotate {
+    display:none;
+    position:absolute;
+    padding:20px;
+    color:#ffffff;
+}
